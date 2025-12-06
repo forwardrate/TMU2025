@@ -61,7 +61,7 @@ $$
 
 $$
 L(T_{i-1},T_i)
-==============
+=
 
 \frac{1}{\tau_i}\left( \frac{1}{P(T_{i-1},T_i)} - 1 \right).
 $$
@@ -76,8 +76,7 @@ $$
 
 $$
 \text{PV}_i
-===========
-
+=
 P(t,T_i),
 \mathbb E_t^{T_i}!\left[ \tau_i L(T_{i-1}, T_i) \right].
 $$
@@ -107,8 +106,7 @@ $$
 
 $$
 \text{PV}_i
-===========
-
+=
 P(t,T_i),\tau_i,F(t;T_{i-1},T_i).
 $$
 
@@ -118,8 +116,7 @@ $$
 
 $$
 F(t;T_{i-1},T_i)
-================
-
+=
 \frac{1}{\tau_i}
 \left(
 \frac{P(t,T_{i-1})}{P(t,T_i)} - 1
@@ -130,8 +127,7 @@ $$
 
 $$
 \text{PV}_i
-===========
-
+=
 P(t,T_{i-1}) - P(t,T_i).
 $$
 
@@ -146,10 +142,9 @@ $$
 
 $$
 \text{PV}^{\text{float}}
-========================
-
-# \sum_{i=1}^{n} \left( P(t,T_{i-1}) - P(t,T_i) \right)
-
+=
+\sum_{i=1}^{n} \left[ P(t,T_{i-1}) - P(t,T_i) \right]
+=
 P(t,T_0) - P(t,T_n).
 $$
 
